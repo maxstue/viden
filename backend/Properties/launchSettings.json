@@ -1,22 +1,31 @@
-{
+﻿{
   "$schema": "https://json.schemastore.org/launchsettings.json",
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iisExpress": {
+      "applicationUrl": "http://localhost:44350",
+      "sslPort": 44366
+    }
+  },
   "profiles": {
-    "knowledge_journey": {
+    "backend": {
       "commandName": "Project",
+      "dotnetRunMessages": true,
       "launchBrowser": true,
-      "launchUrl": "weatherforecast",
+      "launchUrl": "swagger",
+      "applicationUrl": "https://localhost:7201;http://localhost:5201",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
-      },
-      "applicationUrl": "https://localhost:7009;http://localhost:5009",
-      "dotnetRunMessages": true
+      }
     },
-    "Docker": {
-      "commandName": "Docker",
+    "IIS Express": {
+      "commandName": "IISExpress",
       "launchBrowser": true,
-      "launchUrl": "{Scheme}://{ServiceHost}:{ServicePort}/weatherforecast",
-      "publishAllPorts": true,
-      "useSSL": true
+      "launchUrl": "swagger",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
     }
   }
 }
