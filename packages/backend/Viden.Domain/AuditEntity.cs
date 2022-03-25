@@ -1,5 +1,6 @@
 ﻿namespace Viden.Domain;
 
-public class Class1
+public class AuditEntity
 {
+    
 }
