@@ -1,9 +1,5 @@
 ﻿namespace viden.Domain.Entities;
 
-[StronglyTypedId(jsonConverter: StronglyTypedIdJsonConverter.SystemTextJson)]
-public partial struct GroupId {}
-
-public class Group
+public class Group: BaseEntity
 {
-    public GroupId Id { get; } = GroupId.New();
 }

@@ -1,6 +1,5 @@
 ﻿namespace viden.Domain.Entities;
 
-public class Setting
+public class Setting: BaseEntity
 {
-    
 }

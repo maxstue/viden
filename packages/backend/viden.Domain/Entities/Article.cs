@@ -1,6 +1,5 @@
 ﻿namespace viden.Domain.Entities;
 
-public class Article
+public class Article: BaseEntity
 {
-    
 }

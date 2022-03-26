@@ -1,6 +1,7 @@
 ﻿namespace viden.Domain.Entities;
 
-public class ArticleVersion
+
+public class ArticleVersion: BaseEntity
 {
-    
+
 }

@@ -1,6 +1,5 @@
 ﻿namespace viden.Domain.Entities;
 
-public class Category
+public class Category: BaseEntity
 {
-    
 }

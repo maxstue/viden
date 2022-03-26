@@ -1,6 +1,6 @@
 ﻿namespace viden.Domain;
 
-public class BaseEntity<TId>
+public class BaseEntity
 {
-    public TId Id { get; init; } = default!;
+    public Guid Id { get; } = Guid.NewGuid();
 }

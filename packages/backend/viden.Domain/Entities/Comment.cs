@@ -1,6 +1,7 @@
 ﻿namespace viden.Domain.Entities;
 
-public class Comment
+
+public class Comment: BaseEntity
 {
     
 }
