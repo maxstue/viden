@@ -1,5 +1,9 @@
-﻿namespace viden.Domain.Entities;
+﻿using viden.Domain.Enums;
 
-public class Category: BaseEntity
+namespace viden.Domain.Entities;
+
+public class Category: AuditEntity
 {
+    public string Name { get; set; }
+    public CategoryType Type { get; set; }
 }
